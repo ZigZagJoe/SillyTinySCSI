@@ -3097,7 +3097,7 @@
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp e3e3d982-76f5-4235-8aa2-bc399b5b425d))
     (fp_arc (start -0.623194 2.73) (mid -1.848865 2.15846) (end -2.198886 0.852163)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 9565449f-0da1-4d08-8803-418c982cf357))
-    (fp_arc (start 32.963927 -5.57) (mid 33.992372 -5.195661) (end 34.539619 -4.247837)
+    (fp_arc (start 32.963927 -5.57) (mid 33.992399 -5.195669) (end 34.539619 -4.247837)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp acf1d5e8-e34e-4b4c-bf01-0e1d89cb7166))
     (fp_arc (start 35.438886 0.852163) (mid 35.088865 2.158458) (end 33.863194 2.73)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 089998e7-94df-4533-94ac-5f4ff5133cb1))
