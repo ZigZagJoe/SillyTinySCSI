@@ -1,5 +1,5 @@
-StupidTinySCSI
-Derived from ZuliSCSI Pico OSHW.
+SillyTinySCSI - Smallest SCSI emulator out there!
+Derived from and firmware compatible with ZuluSCSI Pico OSHW.
 
 See below for orginal document.....
 
