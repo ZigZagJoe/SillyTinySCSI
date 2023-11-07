@@ -3,3 +3,5 @@
 *.kicad_pcb-bak
 SillyTinySCSI-backups/
 *.lck
+thumbs.db
+notes.txt

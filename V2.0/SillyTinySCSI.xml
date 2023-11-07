@@ -1,0 +1,1961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>M:\Projects\Computer Stuff\CLassic Mac\Hardware\ZuluSCSI-Pico-OSHW-main\StupidTinySCSI\SillyTinySCSI-kicad\SillyTinySCSI.kicad_sch</source>
+    <date>10/29/2023 5:41:06 PM</date>
+    <tool>Eeschema 7.0.8</tool>
+    <textvar name="Brand">ZuluSCSI™</textvar>
+    <textvar name="Copyright">©2023 Rabbit Hole Computing LLC</textvar>
+    <textvar name="License">Licensed under CERN Open Hardware License Strongly Reciprocal Version 2</textvar>
+    <textvar name="LicenseURL">https://spdx.org/licenses/CERN-OHL-S-2.0.html</textvar>
+    <textvar name="Model">Pico OSHW</textvar>
+    <textvar name="Url">http://zuluscsi.com/oshw</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ZuluSCSI (TM) Pico OSHW</title>
+        <company>(C) Rabbit Hole Computing </company>
+        <rev>2023d</rev>
+        <date>2023-09-19</date>
+        <source>SillyTinySCSI.kicad_sch</source>
+        <comment number="1" value="ZuluSCSI is a registered trademark of"/>
+        <comment number="2" value="Descended from SCSI2SD"/>
+        <comment number="3" value="Descended from SCSI2SD, with special thanks to Michael McMaster"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/power/" tstamps="/00000000-0000-0000-0000-000055ff7b90/">
+      <title_block>
+        <title>StupidTinySCSI</title>
+        <company>Derived from ZuluSCSI (TM) Pico OSHW</company>
+        <rev>v1.0</rev>
+        <date/>
+        <source>power.kicad_sch</source>
+        <comment number="1" value="(C) Rabbit Hole Computing "/>
+        <comment number="2" value="ZuluSCSI is a registered trademark of "/>
+        <comment number="3" value="Descended from SCSI2SD, with special thanks to Michael McMaster"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/">
+      <title_block>
+        <title>ZuluSCSI (TM) Pico OSHW</title>
+        <company>(C) Rabbit Hole Computing </company>
+        <rev>2023d</rev>
+        <date>2023-09-19</date>
+        <source>cpu.kicad_sch</source>
+        <comment number="1" value="ZuluSCSI is a registered trademark of"/>
+        <comment number="2" value="Descended from SCSI2SD, with special thanks to Michael McMaster"/>
+        <comment number="3" value="Descended from SCSI2SD, with special thanks to Michael McMaster"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C103">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="PartNumber">CL10B104KB8NNWC</field>
+        <field name="digikey">1276-1935-1-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="C_Small" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="PartNumber" value="CL10B104KB8NNWC"/>
+      <property name="digikey" value="1276-1935-1-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a00a5fd</tstamps>
+    </comp>
+    <comp ref="C104">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="PartNumber">CL10B104KB8NNWC</field>
+        <field name="digikey">1276-1935-1-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="C_Small" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="PartNumber" value="CL10B104KB8NNWC"/>
+      <property name="digikey" value="1276-1935-1-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a009797</tstamps>
+    </comp>
+    <comp ref="C105">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="PartNumber">CL10B104KB8NNWC</field>
+        <field name="digikey">1276-1935-1-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="C_Small" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="PartNumber" value="CL10B104KB8NNWC"/>
+      <property name="digikey" value="1276-1935-1-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a009f53</tstamps>
+    </comp>
+    <comp ref="C107">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="PartNumber">CL10B104KB8NNWC</field>
+        <field name="digikey">1276-1935-1-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="C_Small" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="PartNumber" value="CL10B104KB8NNWC"/>
+      <property name="digikey" value="1276-1935-1-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a00a0c9</tstamps>
+    </comp>
+    <comp ref="C111">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C38523</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="PartNumber">C0603C120J5GAC7867</field>
+        <field name="digikey">399-C0603C120J5GAC7867TR-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="C_Small" description=""/>
+      <property name="LCSC" value="C38523"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="PartNumber" value="C0603C120J5GAC7867"/>
+      <property name="digikey" value="399-C0603C120J5GAC7867TR-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a61f2b5</tstamps>
+    </comp>
+    <comp ref="C114">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="PartNumber">CL21A106KPFNNNG</field>
+        <field name="digikey">1276-6456-1-ND </field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="C_Small" description=""/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="PartNumber" value="CL21A106KPFNNNG"/>
+      <property name="digikey" value="1276-6456-1-ND "/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000589c68ec</tstamps>
+    </comp>
+    <comp ref="J302">
+      <value>DB25_Plug</value>
+      <footprint>ZuluSCSI:DSUB-25_Male_Vertical_Small Courtyard</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="LCSC">D25P24B4PA00LF</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="PartNumber">D25P24B4PA00LF</field>
+        <field name="digikey">609-5556-ND</field>
+      </fields>
+      <libsource lib="Connector" part="DB25_Plug" description="25-pin male plug pin D-SUB connector"/>
+      <property name="PN" value=""/>
+      <property name="PartNumber" value="D25P24B4PA00LF"/>
+      <property name="LCSC" value="D25P24B4PA00LF"/>
+      <property name="Manufacturer" value="Amphenol ICC (FCI)"/>
+      <property name="digikey" value="609-5556-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <property name="ki_description" value="25-pin male plug pin D-SUB connector"/>
+      <property name="ki_keywords" value="male plug D-SUB connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab6bec01-e943-4392-85e4-4049e0d65f54</tstamps>
+    </comp>
+    <comp ref="R109">
+      <value>110</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C22781</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07110RL</field>
+        <field name="digikey">311-110HRTR-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C22781"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603FR-07110RL"/>
+      <property name="digikey" value="311-110HRTR-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a009f86</tstamps>
+    </comp>
+    <comp ref="R110">
+      <value>110</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C22781</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07110RL</field>
+        <field name="digikey">311-110HRTR-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C22781"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603FR-07110RL"/>
+      <property name="digikey" value="311-110HRTR-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a009f8c</tstamps>
+    </comp>
+    <comp ref="R119">
+      <value>110</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C22781</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603FR-07110RL</field>
+        <field name="digikey">311-110HRTR-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C22781"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603FR-07110RL"/>
+      <property name="digikey" value="311-110HRTR-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a61f1df</tstamps>
+    </comp>
+    <comp ref="R122">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-071KL</field>
+        <field name="digikey">311-1.0KGRCT-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-071KL"/>
+      <property name="digikey" value="311-1.0KGRCT-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006445aa96</tstamps>
+    </comp>
+    <comp ref="R123">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-071KL</field>
+        <field name="digikey">311-1.0KGRCT-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-071KL"/>
+      <property name="digikey" value="311-1.0KGRCT-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000638355b0</tstamps>
+    </comp>
+    <comp ref="R124">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-071KL</field>
+        <field name="digikey">311-1.0KGRCT-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-071KL"/>
+      <property name="digikey" value="311-1.0KGRCT-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006371380d</tstamps>
+    </comp>
+    <comp ref="R125">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-071KL</field>
+        <field name="digikey">311-1.0KGRCT-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-071KL"/>
+      <property name="digikey" value="311-1.0KGRCT-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000637ee6c7</tstamps>
+    </comp>
+    <comp ref="R126">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-074K7L</field>
+        <field name="digikey">311-100KHRTR-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-074K7L"/>
+      <property name="digikey" value="311-100KHRTR-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000642a23ab</tstamps>
+    </comp>
+    <comp ref="R127">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-074K7L</field>
+        <field name="digikey">311-100KHRTR-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-074K7L"/>
+      <property name="digikey" value="311-100KHRTR-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000642bbc2c</tstamps>
+    </comp>
+    <comp ref="R128">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-074K7L</field>
+        <field name="digikey">311-100KHRTR-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-074K7L"/>
+      <property name="digikey" value="311-100KHRTR-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000642f9501</tstamps>
+    </comp>
+    <comp ref="R129">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-074K7L</field>
+        <field name="digikey">311-100KHRTR-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-074K7L"/>
+      <property name="digikey" value="311-100KHRTR-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000642f985e</tstamps>
+    </comp>
+    <comp ref="RN301">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_Array_Convex_8x0602</footprint>
+      <fields>
+        <field name="LCSC">C1731305</field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="PartNumber">EXB-2HV121JV</field>
+        <field name="digikey">Y1121CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack08" description="8 resistor network, parallel topology"/>
+      <property name="LCSC" value="C1731305"/>
+      <property name="P/N" value=""/>
+      <property name="PartNumber" value="EXB-2HV121JV"/>
+      <property name="Manufacturer" value="Panasonic"/>
+      <property name="digikey" value="Y1121CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <property name="ki_description" value="8 resistor network, parallel topology"/>
+      <property name="ki_keywords" value="R network parallel topology isolated"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>030dcac7-d6d1-43a2-b594-a0fa2d4eab1f</tstamps>
+    </comp>
+    <comp ref="RN302">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_Array_Convex_8x0602</footprint>
+      <fields>
+        <field name="LCSC">C1731305</field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="PartNumber">EXB-2HV121JV</field>
+        <field name="digikey">Y1121CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack08" description="8 resistor network, parallel topology"/>
+      <property name="LCSC" value="C1731305"/>
+      <property name="P/N" value=""/>
+      <property name="PartNumber" value="EXB-2HV121JV"/>
+      <property name="Manufacturer" value="Panasonic"/>
+      <property name="digikey" value="Y1121CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <property name="ki_description" value="8 resistor network, parallel topology"/>
+      <property name="ki_keywords" value="R network parallel topology isolated"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3118b0be-5843-4f1e-b7aa-f7ea70d2275e</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>74LVT125</value>
+      <footprint>ZuluSCSI:SSOP_TSSOP-14_4.4x5mm_Pitch0.65mm_PCBWay-MaskClearance0.22mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LVC125</datasheet>
+      <fields>
+        <field name="JLCPCBCORRECT">0;0;-90</field>
+        <field name="LCSC">C7042</field>
+        <field name="Manufacturer">Onsemi</field>
+        <field name="PartNumber">74LVTH125MTC</field>
+        <field name="digikey">74LVTH125MTC-ND</field>
+      </fields>
+      <libsource lib="74xx" part="74LVC125" description="Quad buffer 3-State outputs"/>
+      <property name="LCSC" value="C7042"/>
+      <property name="Manufacturer" value="Onsemi"/>
+      <property name="PartNumber" value="74LVTH125MTC"/>
+      <property name="digikey" value="74LVTH125MTC-ND"/>
+      <property name="JLCPCBCORRECT" value="0;0;-90"/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <property name="ki_description" value="Quad buffer 3-State outputs"/>
+      <property name="ki_keywords" value="TTL buffer 3State"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006552e08e 00000000-0000-0000-0000-0000627bfc80 00000000-0000-0000-0000-0000626a2627 00000000-0000-0000-0000-0000627bfc7a 00000000-0000-0000-0000-0000626a1ea5</tstamps>
+    </comp>
+    <comp ref="U102">
+      <value>74LVT125</value>
+      <footprint>ZuluSCSI:SSOP_TSSOP-14_4.4x5mm_Pitch0.65mm_PCBWay-MaskClearance0.22mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LVC125</datasheet>
+      <fields>
+        <field name="JLCPCBCORRECT">0;0;-90</field>
+        <field name="LCSC">C7042</field>
+        <field name="Manufacturer">Onsemi</field>
+        <field name="PartNumber">74LVTH125MTC</field>
+        <field name="digikey">74LVTH125MTC-ND</field>
+      </fields>
+      <libsource lib="74xx" part="74LVC125" description="Quad buffer 3-State outputs"/>
+      <property name="LCSC" value="C7042"/>
+      <property name="Manufacturer" value="Onsemi"/>
+      <property name="PartNumber" value="74LVTH125MTC"/>
+      <property name="digikey" value="74LVTH125MTC-ND"/>
+      <property name="JLCPCBCORRECT" value="0;0;-90"/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <property name="ki_description" value="Quad buffer 3-State outputs"/>
+      <property name="ki_keywords" value="TTL buffer 3State"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006552f37f 00000000-0000-0000-0000-0000629944e8 00000000-0000-0000-0000-0000629a92cf 00000000-0000-0000-0000-0000629a92d5 00000000-0000-0000-0000-0000629944de</tstamps>
+    </comp>
+    <comp ref="U105">
+      <value>74LVT245</value>
+      <footprint>ZuluSCSI:SSOP_TSSOP-20_5.3x7.2mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS245</datasheet>
+      <fields>
+        <field name="JLCPCBCORRECT">0;0;-90</field>
+        <field name="LCSC">C7057</field>
+        <field name="Manufacturer">Diodes Inc</field>
+        <field name="PartNumber">74LVT245BBT20-13</field>
+        <field name="digikey">74LVT245BBT20-13DICT-ND</field>
+      </fields>
+      <libsource lib="74xx" part="74LS245" description="Octal BUS Transceivers, 3-State outputs"/>
+      <property name="LCSC" value="C7057"/>
+      <property name="Manufacturer" value="Diodes Inc"/>
+      <property name="PartNumber" value="74LVT245BBT20-13"/>
+      <property name="digikey" value="74LVT245BBT20-13DICT-ND"/>
+      <property name="JLCPCBCORRECT" value="0;0;-90"/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <property name="ki_description" value="Octal BUS Transceivers, 3-State outputs"/>
+      <property name="ki_keywords" value="TTL BUS 3State"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006289f248</tstamps>
+    </comp>
+    <comp ref="U106">
+      <value>74LVT245</value>
+      <footprint>ZuluSCSI:SSOP_TSSOP-20_5.3x7.2mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS245</datasheet>
+      <fields>
+        <field name="JLCPCBCORRECT">0;0;-90</field>
+        <field name="LCSC">C7057</field>
+        <field name="Manufacturer">Diodes Inc</field>
+        <field name="PartNumber">74LVT245BBT20-13</field>
+        <field name="digikey">74LVT245BBT20-13DICT-ND</field>
+      </fields>
+      <libsource lib="74xx" part="74LS245" description="Octal BUS Transceivers, 3-State outputs"/>
+      <property name="LCSC" value="C7057"/>
+      <property name="Manufacturer" value="Diodes Inc"/>
+      <property name="PartNumber" value="74LVT245BBT20-13"/>
+      <property name="digikey" value="74LVT245BBT20-13DICT-ND"/>
+      <property name="JLCPCBCORRECT" value="0;0;-90"/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SillyTinySCSI.kicad_sch"/>
+      <property name="ki_description" value="Octal BUS Transceivers, 3-State outputs"/>
+      <property name="ki_keywords" value="TTL BUS 3State"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000624e8368</tstamps>
+    </comp>
+    <comp ref="C207">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="PartNumber">CL21A106KPFNNNG</field>
+        <field name="digikey">1276-6456-1-ND </field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="C" description=""/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="PartNumber" value="CL21A106KPFNNNG"/>
+      <property name="digikey" value="1276-6456-1-ND "/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-000055ff7b90/"/>
+      <tstamps>00000000-0000-0000-0000-000055ff8df0</tstamps>
+    </comp>
+    <comp ref="C301">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="PartNumber">CL21A106KPFNNNG</field>
+        <field name="digikey">1276-6456-1-ND </field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="C" description=""/>
+      <property name="Voltage" value=""/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="PartNumber" value="CL21A106KPFNNNG"/>
+      <property name="digikey" value="1276-6456-1-ND "/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-000055ff7b90/"/>
+      <tstamps>2ef6c097-3665-4ea9-8da5-c2a4686551bd</tstamps>
+    </comp>
+    <comp ref="C302">
+      <value>220uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C8023</field>
+        <field name="Manufacturer">AVX</field>
+        <field name="PartNumber">TAJC227K010RNJ</field>
+        <field name="digikey">478-4774-1-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="C" description=""/>
+      <property name="Voltage Rating" value=""/>
+      <property name="LCSC" value="C8023"/>
+      <property name="Manufacturer" value="AVX"/>
+      <property name="PartNumber" value="TAJC227K010RNJ"/>
+      <property name="digikey" value="478-4774-1-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-000055ff7b90/"/>
+      <tstamps>7a080314-e13b-43ca-acc6-448f285e9ccf</tstamps>
+    </comp>
+    <comp ref="C303">
+      <value>220uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C8023</field>
+        <field name="Manufacturer">AVX</field>
+        <field name="PartNumber">TAJC227K010RNJ</field>
+        <field name="digikey">478-4774-1-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="C" description=""/>
+      <property name="Voltage Rating" value=""/>
+      <property name="LCSC" value="C8023"/>
+      <property name="Manufacturer" value="AVX"/>
+      <property name="PartNumber" value="TAJC227K010RNJ"/>
+      <property name="digikey" value="478-4774-1-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-000055ff7b90/"/>
+      <tstamps>680813f1-1e74-4957-94dc-081c3d297fbc</tstamps>
+    </comp>
+    <comp ref="C304">
+      <value>220uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C8023</field>
+        <field name="Manufacturer">AVX</field>
+        <field name="PartNumber">TAJC227K010RNJ</field>
+        <field name="digikey">478-4774-1-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="C" description=""/>
+      <property name="Voltage Rating" value=""/>
+      <property name="LCSC" value="C8023"/>
+      <property name="Manufacturer" value="AVX"/>
+      <property name="PartNumber" value="TAJC227K010RNJ"/>
+      <property name="digikey" value="478-4774-1-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-000055ff7b90/"/>
+      <tstamps>d487ee65-115e-48a3-9228-807f693d0d8a</tstamps>
+    </comp>
+    <comp ref="C305">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="PartNumber">CL21A106KPFNNNG</field>
+        <field name="digikey">1276-6456-1-ND </field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="C" description=""/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="PartNumber" value="CL21A106KPFNNNG"/>
+      <property name="digikey" value="1276-6456-1-ND "/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-000055ff7b90/"/>
+      <tstamps>3d8bce18-3bd6-45cc-b166-3112efb809cf</tstamps>
+    </comp>
+    <comp ref="D201">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C8598</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="PartNumber">MBRX120LF-TP</field>
+        <field name="digikey">MBRX120LF-TPMSCT-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="D_Schottky" description=""/>
+      <property name="LCSC" value="C8598"/>
+      <property name="Manufacturer" value="Micro Commercial Co"/>
+      <property name="PartNumber" value="MBRX120LF-TP"/>
+      <property name="digikey" value="MBRX120LF-TPMSCT-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-000055ff7b90/"/>
+      <tstamps>00000000-0000-0000-0000-000061fd0168</tstamps>
+    </comp>
+    <comp ref="D301">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C8598</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="PartNumber">MBRX120LF-TP</field>
+        <field name="digikey">MBRX120LF-TPMSCT-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="D_Schottky" description=""/>
+      <property name="LCSC" value="C8598"/>
+      <property name="Manufacturer" value="Micro Commercial Co"/>
+      <property name="PartNumber" value="MBRX120LF-TP"/>
+      <property name="digikey" value="MBRX120LF-TPMSCT-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-000055ff7b90/"/>
+      <tstamps>feab170c-997f-4602-bdd8-27888d546a48</tstamps>
+    </comp>
+    <comp ref="D303">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C8598</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="PartNumber">MBRX120LF-TP</field>
+        <field name="digikey">MBRX120LF-TPMSCT-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="D_Schottky" description=""/>
+      <property name="LCSC" value="C8598"/>
+      <property name="Manufacturer" value="Micro Commercial Co"/>
+      <property name="PartNumber" value="MBRX120LF-TP"/>
+      <property name="digikey" value="MBRX120LF-TPMSCT-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-000055ff7b90/"/>
+      <tstamps>681ceb37-62bf-4b53-bc59-a5afc006471e</tstamps>
+    </comp>
+    <comp ref="F301">
+      <value>500mA Hold</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C369160</field>
+        <field name="Manufacturer">Bel Fuse Inc</field>
+        <field name="PartNumber">0ZCJ0050FF2G</field>
+        <field name="digikey">507-1802-1-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="FUSE" description=""/>
+      <property name="LCSC" value="C369160"/>
+      <property name="Manufacturer" value="Bel Fuse Inc"/>
+      <property name="PartNumber" value="0ZCJ0050FF2G"/>
+      <property name="digikey" value="507-1802-1-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-000055ff7b90/"/>
+      <tstamps>2844e02b-71b9-4553-bdeb-8706a6157434</tstamps>
+    </comp>
+    <comp ref="L302">
+      <value>Ferrite_Bead_Small</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1002</field>
+        <field name="Manufacturer">Pulse Electronics Network</field>
+        <field name="PartNumber">PE-0603FB601ST</field>
+        <field name="digikey">553-2384-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="LCSC" value="C1002"/>
+      <property name="Manufacturer" value="Pulse Electronics Network"/>
+      <property name="PartNumber" value="PE-0603FB601ST"/>
+      <property name="digikey" value="553-2384-2-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead, small symbol"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-000055ff7b90/"/>
+      <tstamps>7742250f-cf0b-4b7f-8bc3-c0793be82e1a</tstamps>
+    </comp>
+    <comp ref="U301">
+      <value>TLV75728PDBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="LCSC">C2863639</field>
+        <field name="Manufacturer">TI</field>
+        <field name="PartNumber">TLV75728PDBVR</field>
+        <field name="digikey">296-51816-1-ND </field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="MIC5219-2.85YM5" description="500mA low dropout linear regulator, fixed 2.85V output, SOT-23-5"/>
+      <property name="LCSC" value="C2863639"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Manufacturer" value="TI"/>
+      <property name="PartNumber" value="TLV75728PDBVR"/>
+      <property name="digikey" value="296-51816-1-ND "/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="500mA low dropout linear regulator, fixed 2.85V output, SOT-23-5"/>
+      <property name="ki_keywords" value="500mA ultra-low-noise LDO linear voltage regulator fixed positive"/>
+      <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-000055ff7b90/"/>
+      <tstamps>b32dbcd1-10f1-4ddb-955d-bec15f4fb214</tstamps>
+    </comp>
+    <comp ref="C312">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="PartNumber">CL10B104KB8NNWC</field>
+        <field name="digikey">1276-1935-1-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="C" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="PartNumber" value="CL10B104KB8NNWC"/>
+      <property name="digikey" value="1276-1935-1-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>00000000-0000-0000-0000-000058976a98</tstamps>
+    </comp>
+    <comp ref="C322">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="PartNumber">CL21A106KPFNNNG</field>
+        <field name="digikey">1276-6456-1-ND </field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="C" description=""/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="PartNumber" value="CL21A106KPFNNNG"/>
+      <property name="digikey" value="1276-6456-1-ND "/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>00000000-0000-0000-0000-000058976710</tstamps>
+    </comp>
+    <comp ref="D302">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="JLCPCB_IGNORE">do not fit</field>
+        <field name="LCSC">n/a</field>
+        <field name="Manufacturer">Osram Opto Semiconductors Inc</field>
+        <field name="PartNumber">HSMC-C170-T0000</field>
+        <field name="digikey">516-HSMC-C170-T0000CT-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="LED" description=""/>
+      <property name="LCSC" value="n/a"/>
+      <property name="Manufacturer" value="Osram Opto Semiconductors Inc"/>
+      <property name="PartNumber" value="HSMC-C170-T0000"/>
+      <property name="digikey" value="516-HSMC-C170-T0000CT-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value="do not fit"/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>00000000-0000-0000-0000-000058979a43</tstamps>
+    </comp>
+    <comp ref="D304">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="JLCPCB_IGNORE">do not fit</field>
+        <field name="LCSC">n/a</field>
+        <field name="Manufacturer">Osram Opto Semiconductors Inc</field>
+        <field name="PartNumber">HSMC-C170-T0000</field>
+        <field name="digikey">516-HSMC-C170-T0000CT-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="LED" description=""/>
+      <property name="LCSC" value="n/a"/>
+      <property name="Manufacturer" value="Osram Opto Semiconductors Inc"/>
+      <property name="PartNumber" value="HSMC-C170-T0000"/>
+      <property name="digikey" value="516-HSMC-C170-T0000CT-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value="do not fit"/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>3a37dcd9-6a2f-49a8-aeb4-9bd65b791339</tstamps>
+    </comp>
+    <comp ref="J301">
+      <value>Micro_SD_Card_Det1</value>
+      <footprint>MicroSD:microsd_molex_1051620001</footprint>
+      <fields>
+        <field name="LCSC">n/a</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="PartNumber">1051620001</field>
+        <field name="digikey">WM14405CT-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Micro_SD_Card_Det1" description="Micro SD Card Socket with one card detection pin"/>
+      <property name="LCSC" value="n/a"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="PartNumber" value="1051620001"/>
+      <property name="digikey" value="WM14405CT-ND"/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <property name="ki_description" value="Micro SD Card Socket with one card detection pin"/>
+      <property name="ki_keywords" value="connector SD microsd"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>77d8ecb7-1713-4325-afd9-fcd04fcd4d05</tstamps>
+    </comp>
+    <comp ref="L301">
+      <value>Ferrite_Bead_Small</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1002</field>
+        <field name="Manufacturer">Pulse Electronics Network</field>
+        <field name="PartNumber">PE-0603FB601ST</field>
+        <field name="digikey">553-2384-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="LCSC" value="C1002"/>
+      <property name="Manufacturer" value="Pulse Electronics Network"/>
+      <property name="PartNumber" value="PE-0603FB601ST"/>
+      <property name="digikey" value="553-2384-2-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead, small symbol"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>00000000-0000-0000-0000-00005b7d56ee</tstamps>
+    </comp>
+    <comp ref="R205">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-074K7L</field>
+        <field name="digikey">311-100KHRTR-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-074K7L"/>
+      <property name="digikey" value="311-100KHRTR-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>d1f2a7c7-9079-4737-92bc-f468b6a88bd1</tstamps>
+    </comp>
+    <comp ref="R304">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23197</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">0603WAF510JT5E</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C23197"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="0603WAF510JT5E"/>
+      <property name="digikey" value=""/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>00000000-0000-0000-0000-000058979b52</tstamps>
+    </comp>
+    <comp ref="R307">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="PartNumber" value=""/>
+      <property name="digikey" value=""/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>21396988-f8c0-42be-ae2a-7db18f17ada1</tstamps>
+    </comp>
+    <comp ref="R308">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="PartNumber" value=""/>
+      <property name="digikey" value=""/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>68dd4638-5be6-4c1a-8bfd-6c515a75c169</tstamps>
+    </comp>
+    <comp ref="R311">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-074K7L</field>
+        <field name="digikey">311-100KHRTR-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-074K7L"/>
+      <property name="digikey" value="311-100KHRTR-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>00000000-0000-0000-0000-000062035bdc</tstamps>
+    </comp>
+    <comp ref="R312">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-074K7L</field>
+        <field name="digikey">311-100KHRTR-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-074K7L"/>
+      <property name="digikey" value="311-100KHRTR-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>00000000-0000-0000-0000-000061fe876b</tstamps>
+    </comp>
+    <comp ref="R313">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-074K7L</field>
+        <field name="digikey">311-100KHRTR-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-074K7L"/>
+      <property name="digikey" value="311-100KHRTR-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>00000000-0000-0000-0000-000061fe911b</tstamps>
+    </comp>
+    <comp ref="R314">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-074K7L</field>
+        <field name="digikey">311-100KHRTR-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-074K7L"/>
+      <property name="digikey" value="311-100KHRTR-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>00000000-0000-0000-0000-000061fe94d3</tstamps>
+    </comp>
+    <comp ref="R315">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-074K7L</field>
+        <field name="digikey">311-100KHRTR-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-074K7L"/>
+      <property name="digikey" value="311-100KHRTR-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>00000000-0000-0000-0000-000061fe970d</tstamps>
+    </comp>
+    <comp ref="R317">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="PartNumber">RC0603JR-071KL</field>
+        <field name="digikey">311-1.0KGRCT-ND</field>
+      </fields>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="PartNumber" value="RC0603JR-071KL"/>
+      <property name="digikey" value="311-1.0KGRCT-ND"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>f3f6b421-fab6-44b1-9afa-c4b4bf3d8b11</tstamps>
+    </comp>
+    <comp ref="R318">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="zuluscsi-rescue" part="R" description=""/>
+      <property name="LCSC" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="PartNumber" value=""/>
+      <property name="digikey" value=""/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value=""/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>5197d8fd-ff62-4b49-8858-93b87d321f4e</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Pico W</value>
+      <footprint>MCU_RaspberryPi_and_Boards:RPi_Pico_W_SMD headers</footprint>
+      <fields>
+        <field name="JLCPCB_IGNORE">do not fit</field>
+        <field name="LCSC">N/A</field>
+      </fields>
+      <libsource lib="MCU_RaspberryPi_and_Boards" part="Pico W" description=""/>
+      <property name="LCSC" value="N/A"/>
+      <property name="JLCPCBCORRECT" value=""/>
+      <property name="JLCPCB_IGNORE" value="do not fit"/>
+      <property name="Sheetname" value="cpu"/>
+      <property name="Sheetfile" value="cpu.kicad_sch"/>
+      <sheetpath names="/cpu/" tstamps="/00000000-0000-0000-0000-000055ff7cc4/"/>
+      <tstamps>176fef9c-9ee2-4fcf-a5e5-e7ac55cac7bf</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS245">
+      <description>Octal BUS Transceivers, 3-State outputs</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS245</docs>
+      <footprints>
+        <fp>DIP?20*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS245</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LS245</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A-&gt;B" type="input"/>
+        <pin num="2" name="A0" type="tri_state"/>
+        <pin num="3" name="A1" type="tri_state"/>
+        <pin num="4" name="A2" type="tri_state"/>
+        <pin num="5" name="A3" type="tri_state"/>
+        <pin num="6" name="A4" type="tri_state"/>
+        <pin num="7" name="A5" type="tri_state"/>
+        <pin num="8" name="A6" type="tri_state"/>
+        <pin num="9" name="A7" type="tri_state"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="B7" type="tri_state"/>
+        <pin num="12" name="B6" type="tri_state"/>
+        <pin num="13" name="B5" type="tri_state"/>
+        <pin num="14" name="B4" type="tri_state"/>
+        <pin num="15" name="B3" type="tri_state"/>
+        <pin num="16" name="B2" type="tri_state"/>
+        <pin num="17" name="B1" type="tri_state"/>
+        <pin num="18" name="B0" type="tri_state"/>
+        <pin num="19" name="CE" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LVC125">
+      <description>Quad buffer 3-State outputs</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LVC125</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC125</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LVC125</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="tri_state"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="tri_state"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="tri_state"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="tri_state"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB25_Plug">
+      <description>25-pin male plug pin D-SUB connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Male*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB25_Plug</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Micro_SD_Card_Det1">
+      <description>Micro SD Card Socket with one card detection pin</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf</docs>
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_SD_Card_Det1</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="bidirectional"/>
+        <pin num="2" name="DAT3/CD" type="bidirectional"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="bidirectional"/>
+        <pin num="8" name="DAT1" type="bidirectional"/>
+        <pin num="9" name="DET" type="passive"/>
+        <pin num="10" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Pack08">
+      <description>8 resistor network, parallel topology</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>SOIC*</fp>
+        <fp>R*Array*Concave*</fp>
+        <fp>R*Array*Convex*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Pack08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1.1" type="passive"/>
+        <pin num="2" name="R2.1" type="passive"/>
+        <pin num="3" name="R3.1" type="passive"/>
+        <pin num="4" name="R4.1" type="passive"/>
+        <pin num="5" name="R5.1" type="passive"/>
+        <pin num="6" name="R6.1" type="passive"/>
+        <pin num="7" name="R7.1" type="passive"/>
+        <pin num="8" name="R8.1" type="passive"/>
+        <pin num="9" name="R8.2" type="passive"/>
+        <pin num="10" name="R7.2" type="passive"/>
+        <pin num="11" name="R6.2" type="passive"/>
+        <pin num="12" name="R5.2" type="passive"/>
+        <pin num="13" name="R4.2" type="passive"/>
+        <pin num="14" name="R3.2" type="passive"/>
+        <pin num="15" name="R2.2" type="passive"/>
+        <pin num="16" name="R1.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_RaspberryPi_and_Boards" part="Pico W">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Pico W</field>
+        <field name="Footprint">RPi_Pico:RPi_Pico_SMD_TH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO0" type="bidirectional"/>
+        <pin num="2" name="GPIO1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GPIO6" type="bidirectional"/>
+        <pin num="10" name="GPIO7" type="bidirectional"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GPIO10" type="bidirectional"/>
+        <pin num="15" name="GPIO11" type="bidirectional"/>
+        <pin num="16" name="GPIO12" type="bidirectional"/>
+        <pin num="17" name="GPIO13" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GPIO14" type="bidirectional"/>
+        <pin num="20" name="GPIO15" type="bidirectional"/>
+        <pin num="21" name="GPIO16" type="bidirectional"/>
+        <pin num="22" name="GPIO17" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GPIO18" type="bidirectional"/>
+        <pin num="25" name="GPIO19" type="bidirectional"/>
+        <pin num="26" name="GPIO20" type="bidirectional"/>
+        <pin num="27" name="GPIO21" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="GPIO22" type="bidirectional"/>
+        <pin num="30" name="RUN" type="input"/>
+        <pin num="31" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="32" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="33" name="AGND" type="power_in"/>
+        <pin num="34" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="power_in"/>
+        <pin num="36" name="3V3" type="power_in"/>
+        <pin num="37" name="3V3_EN" type="input"/>
+        <pin num="38" name="GND" type="bidirectional"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MIC5219-2.85YM5">
+      <description>500mA low dropout linear regulator, fixed 2.85V output, SOT-23-5</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5219-2.85YM5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="zuluscsi-rescue" part="C">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="zuluscsi-rescue" part="C_Small">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="zuluscsi-rescue" part="D_Schottky">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="zuluscsi-rescue" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="zuluscsi-rescue" part="LED">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="zuluscsi-rescue" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\7.0.8\share\kicad\symbols\/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0.8\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0.8\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_RaspberryPi_and_Boards">
+      <uri>M:\Projects\Computer Stuff\CLassic Mac\Hardware\ZuluSCSI-Pico-OSHW-main\StupidTinySCSI\SillyTinySCSI-kicad/kicad_libs/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0.8\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="zuluscsi-rescue">
+      <uri>M:\Projects\Computer Stuff\CLassic Mac\Hardware\ZuluSCSI-Pico-OSHW-main\StupidTinySCSI\SillyTinySCSI-kicad/kicad_libs/zuluscsi-rescue.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V0">
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="C104" pin="1" pintype="passive"/>
+      <node ref="C105" pin="1" pintype="passive"/>
+      <node ref="C107" pin="2" pintype="passive"/>
+      <node ref="C114" pin="1" pintype="passive"/>
+      <node ref="C207" pin="1" pintype="passive"/>
+      <node ref="C302" pin="1" pintype="passive"/>
+      <node ref="C305" pin="1" pintype="passive"/>
+      <node ref="C312" pin="2" pintype="passive"/>
+      <node ref="C322" pin="2" pintype="passive"/>
+      <node ref="D201" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J301" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="R109" pin="2" pintype="passive"/>
+      <node ref="R110" pin="2" pintype="passive"/>
+      <node ref="R126" pin="1" pintype="passive"/>
+      <node ref="R127" pin="1" pintype="passive"/>
+      <node ref="R128" pin="1" pintype="passive"/>
+      <node ref="R129" pin="1" pintype="passive"/>
+      <node ref="R308" pin="1" pintype="passive"/>
+      <node ref="R311" pin="2" pintype="passive"/>
+      <node ref="R312" pin="2" pintype="passive"/>
+      <node ref="R313" pin="2" pintype="passive"/>
+      <node ref="R314" pin="2" pintype="passive"/>
+      <node ref="R315" pin="2" pintype="passive"/>
+      <node ref="R318" pin="1" pintype="passive"/>
+      <node ref="RN301" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN301" pin="2" pinfunction="R2.1" pintype="passive"/>
+      <node ref="RN301" pin="3" pinfunction="R3.1" pintype="passive"/>
+      <node ref="RN301" pin="4" pinfunction="R4.1" pintype="passive"/>
+      <node ref="RN301" pin="5" pinfunction="R5.1" pintype="passive"/>
+      <node ref="RN301" pin="6" pinfunction="R6.1" pintype="passive"/>
+      <node ref="RN301" pin="7" pinfunction="R7.1" pintype="passive"/>
+      <node ref="RN301" pin="8" pinfunction="R8.1" pintype="passive"/>
+      <node ref="RN302" pin="10" pinfunction="R7.2" pintype="passive"/>
+      <node ref="RN302" pin="11" pinfunction="R6.2" pintype="passive"/>
+      <node ref="RN302" pin="12" pinfunction="R5.2" pintype="passive"/>
+      <node ref="RN302" pin="13" pinfunction="R4.2" pintype="passive"/>
+      <node ref="RN302" pin="14" pinfunction="R3.2" pintype="passive"/>
+      <node ref="RN302" pin="15" pinfunction="R2.2" pintype="passive"/>
+      <node ref="RN302" pin="16" pinfunction="R1.2" pintype="passive"/>
+      <node ref="RN302" pin="9" pinfunction="R8.2" pintype="passive"/>
+      <node ref="U101" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U102" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U105" pin="20" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U106" pin="20" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U301" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="C303" pin="1" pintype="passive"/>
+      <node ref="C304" pin="1" pintype="passive"/>
+      <node ref="D201" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F301" pin="2" pintype="input"/>
+      <node ref="U1" pin="39" pinfunction="VSYS" pintype="power_in"/>
+      <node ref="U301" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U301" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="3" name="/cpu/GPIO_RST">
+      <node ref="R205" pin="2" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/cpu/LED_SWO">
+      <node ref="R304" pin="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/cpu/SDIO_CLK">
+      <node ref="J301" pin="5" pinfunction="CLK" pintype="input"/>
+      <node ref="U1" pin="14" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/cpu/SDIO_CMD">
+      <node ref="J301" pin="3" pinfunction="CMD" pintype="input"/>
+      <node ref="R313" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="GPIO11" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/cpu/SDIO_D0">
+      <node ref="J301" pin="7" pinfunction="DAT0" pintype="bidirectional"/>
+      <node ref="R314" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/cpu/SDIO_D1">
+      <node ref="J301" pin="8" pinfunction="DAT1" pintype="bidirectional"/>
+      <node ref="R315" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/cpu/SDIO_D2">
+      <node ref="J301" pin="1" pinfunction="DAT2" pintype="bidirectional"/>
+      <node ref="R311" pin="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/cpu/SDIO_D3">
+      <node ref="J301" pin="2" pinfunction="DAT3/CD" pintype="bidirectional"/>
+      <node ref="R312" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/cpu/VBUS">
+      <node ref="L301" pin="1" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="12" name="/power/5V_IN">
+      <node ref="D301" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D303" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L302" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="C104" pin="2" pintype="passive"/>
+      <node ref="C105" pin="2" pintype="passive"/>
+      <node ref="C107" pin="1" pintype="passive"/>
+      <node ref="C111" pin="2" pintype="passive"/>
+      <node ref="C114" pin="2" pintype="passive"/>
+      <node ref="C207" pin="2" pintype="passive"/>
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C302" pin="2" pintype="passive"/>
+      <node ref="C303" pin="2" pintype="passive"/>
+      <node ref="C304" pin="2" pintype="passive"/>
+      <node ref="C305" pin="2" pintype="passive"/>
+      <node ref="C312" pin="1" pintype="passive"/>
+      <node ref="C322" pin="1" pintype="passive"/>
+      <node ref="D302" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D304" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J301" pin="10" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J301" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="J302" pin="14" pinfunction="P14" pintype="passive"/>
+      <node ref="J302" pin="16" pinfunction="P16" pintype="passive"/>
+      <node ref="J302" pin="18" pinfunction="P18" pintype="passive"/>
+      <node ref="J302" pin="24" pinfunction="P24" pintype="passive"/>
+      <node ref="J302" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J302" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="R307" pin="1" pintype="passive"/>
+      <node ref="R317" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="33" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U1" pin="38" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="13" pintype="input"/>
+      <node ref="U101" pin="2" pintype="input"/>
+      <node ref="U101" pin="4" pintype="input"/>
+      <node ref="U101" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="9" pintype="input"/>
+      <node ref="U102" pin="13" pintype="input"/>
+      <node ref="U102" pin="2" pintype="input"/>
+      <node ref="U102" pin="4" pintype="input"/>
+      <node ref="U102" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U105" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U105" pin="11" pinfunction="B7" pintype="tri_state"/>
+      <node ref="U105" pin="9" pinfunction="A7" pintype="tri_state"/>
+      <node ref="U106" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U106" pin="19" pinfunction="CE" pintype="input"/>
+      <node ref="U301" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="14" name="Net-(D302-A)">
+      <node ref="D302" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D304" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R304" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(F301-Pad1)">
+      <node ref="F301" pin="1" pintype="input"/>
+      <node ref="L302" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(R123-Pad2)">
+      <node ref="R123" pin="2" pintype="passive"/>
+      <node ref="U101" pin="6" pintype="tri_state"/>
+    </net>
+    <net code="17" name="Net-(R124-Pad2)">
+      <node ref="R124" pin="2" pintype="passive"/>
+      <node ref="U102" pin="6" pintype="tri_state"/>
+    </net>
+    <net code="18" name="Net-(R125-Pad1)">
+      <node ref="R125" pin="1" pintype="passive"/>
+      <node ref="U102" pin="11" pintype="tri_state"/>
+    </net>
+    <net code="19" name="Net-(U105-B1)">
+      <node ref="R122" pin="1" pintype="passive"/>
+      <node ref="U105" pin="17" pinfunction="B1" pintype="tri_state"/>
+    </net>
+    <net code="20" name="TERMPWR_5V">
+      <node ref="D301" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J302" pin="25" pinfunction="P25" pintype="passive"/>
+    </net>
+    <net code="21" name="USB_VCC">
+      <node ref="D303" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L301" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(J301-DET-Pad9)">
+      <node ref="J301" pin="9" pinfunction="DET" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-3V3-Pad36)">
+      <node ref="U1" pin="36" pinfunction="3V3" pintype="power_in+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-3V3_EN-Pad37)">
+      <node ref="U1" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-ADC_VREF-Pad35)">
+      <node ref="U1" pin="35" pinfunction="ADC_VREF" pintype="power_in+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-RUN-Pad30)">
+      <node ref="U1" pin="30" pinfunction="RUN" pintype="input+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U301-BP-Pad4)">
+      <node ref="U301" pin="4" pinfunction="BP" pintype="input+no_connect"/>
+    </net>
+    <net code="28" name="~{DATA_DIR}">
+      <node ref="R126" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+      <node ref="U102" pin="10" pintype="input"/>
+      <node ref="U106" pin="1" pinfunction="A-&gt;B" pintype="input"/>
+    </net>
+    <net code="29" name="~{DBGLOG}">
+      <node ref="R308" pin="2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="GPIO17" pintype="bidirectional"/>
+      <node ref="U105" pin="4" pinfunction="A2" pintype="tri_state"/>
+    </net>
+    <net code="30" name="~{GPIO_ACK}">
+      <node ref="R122" pin="2" pintype="passive"/>
+      <node ref="R317" pin="1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
+      <node ref="U105" pin="18" pinfunction="B0" pintype="tri_state"/>
+    </net>
+    <net code="31" name="~{GPIO_ATN}">
+      <node ref="R318" pin="2" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="GPIO28_ADC2" pintype="bidirectional"/>
+      <node ref="U105" pin="1" pinfunction="A-&gt;B" pintype="input"/>
+      <node ref="U105" pin="13" pinfunction="B5" pintype="tri_state"/>
+    </net>
+    <net code="32" name="~{GPIO_CD_SEL}">
+      <node ref="R124" pin="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="GPIO18" pintype="bidirectional"/>
+      <node ref="U105" pin="5" pinfunction="A3" pintype="tri_state"/>
+    </net>
+    <net code="33" name="~{GPIO_DB0}">
+      <node ref="U1" pin="1" pinfunction="GPIO0" pintype="bidirectional"/>
+      <node ref="U106" pin="18" pinfunction="B0" pintype="tri_state"/>
+    </net>
+    <net code="34" name="~{GPIO_DB1}">
+      <node ref="U1" pin="2" pinfunction="GPIO1" pintype="bidirectional"/>
+      <node ref="U106" pin="17" pinfunction="B1" pintype="tri_state"/>
+    </net>
+    <net code="35" name="~{GPIO_DB2}">
+      <node ref="U1" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+      <node ref="U106" pin="16" pinfunction="B2" pintype="tri_state"/>
+    </net>
+    <net code="36" name="~{GPIO_DB3}">
+      <node ref="U1" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+      <node ref="U106" pin="15" pinfunction="B3" pintype="tri_state"/>
+    </net>
+    <net code="37" name="~{GPIO_DB4}">
+      <node ref="U1" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+      <node ref="U106" pin="14" pinfunction="B4" pintype="tri_state"/>
+    </net>
+    <net code="38" name="~{GPIO_DB5}">
+      <node ref="U1" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+      <node ref="U106" pin="13" pinfunction="B5" pintype="tri_state"/>
+    </net>
+    <net code="39" name="~{GPIO_DB6}">
+      <node ref="U1" pin="9" pinfunction="GPIO6" pintype="bidirectional"/>
+      <node ref="U106" pin="12" pinfunction="B6" pintype="tri_state"/>
+    </net>
+    <net code="40" name="~{GPIO_DB7}">
+      <node ref="U1" pin="10" pinfunction="GPIO7" pintype="bidirectional"/>
+      <node ref="U106" pin="11" pinfunction="B7" pintype="tri_state"/>
+    </net>
+    <net code="41" name="~{GPIO_DBP}">
+      <node ref="R125" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+      <node ref="U102" pin="9" pintype="input"/>
+    </net>
+    <net code="42" name="~{GPIO_IO}">
+      <node ref="R307" pin="2" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="GPIO22" pintype="bidirectional"/>
+      <node ref="U105" pin="6" pinfunction="A4" pintype="tri_state"/>
+    </net>
+    <net code="43" name="~{GPIO_MSG_BSY}">
+      <node ref="R123" pin="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="GPIO20" pintype="bidirectional"/>
+      <node ref="U105" pin="8" pinfunction="A6" pintype="tri_state"/>
+    </net>
+    <net code="44" name="~{IN_RST}">
+      <node ref="R205" pin="1" pintype="passive"/>
+      <node ref="U101" pin="11" pintype="tri_state"/>
+    </net>
+    <net code="45" name="~{OUT_BSY}">
+      <node ref="R127" pin="2" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
+      <node ref="U101" pin="1" pintype="input"/>
+      <node ref="U105" pin="19" pinfunction="CE" pintype="input"/>
+    </net>
+    <net code="46" name="~{OUT_RST}">
+      <node ref="R128" pin="2" pintype="passive"/>
+      <node ref="U101" pin="10" pintype="input"/>
+    </net>
+    <net code="47" name="~{OUT_SEL}">
+      <node ref="R129" pin="2" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="GPIO19" pintype="bidirectional"/>
+      <node ref="U102" pin="1" pintype="input"/>
+    </net>
+    <net code="48" name="~{RC_ACK}">
+      <node ref="C111" pin="1" pintype="passive"/>
+      <node ref="R119" pin="2" pintype="passive"/>
+      <node ref="U105" pin="2" pinfunction="A0" pintype="tri_state"/>
+    </net>
+    <net code="49" name="~{SCSI_ACK}">
+      <node ref="J302" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R119" pin="1" pintype="passive"/>
+      <node ref="RN301" pin="10" pinfunction="R7.2" pintype="passive"/>
+      <node ref="U105" pin="3" pinfunction="A1" pintype="tri_state"/>
+    </net>
+    <net code="50" name="~{SCSI_ATN}">
+      <node ref="J302" pin="17" pinfunction="P17" pintype="passive"/>
+      <node ref="R110" pin="1" pintype="passive"/>
+      <node ref="U105" pin="7" pinfunction="A5" pintype="tri_state"/>
+    </net>
+    <net code="51" name="~{SCSI_BSY}">
+      <node ref="J302" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="RN301" pin="11" pinfunction="R6.2" pintype="passive"/>
+      <node ref="U101" pin="3" pintype="tri_state"/>
+      <node ref="U101" pin="5" pintype="input"/>
+    </net>
+    <net code="52" name="~{SCSI_CD}">
+      <node ref="J302" pin="15" pinfunction="P15" pintype="passive"/>
+      <node ref="RN301" pin="14" pinfunction="R3.2" pintype="passive"/>
+      <node ref="U105" pin="15" pinfunction="B3" pintype="tri_state"/>
+    </net>
+    <net code="53" name="~{SCSI_DB0}">
+      <node ref="J302" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="RN302" pin="8" pinfunction="R8.1" pintype="passive"/>
+      <node ref="U106" pin="2" pinfunction="A0" pintype="tri_state"/>
+    </net>
+    <net code="54" name="~{SCSI_DB1}">
+      <node ref="J302" pin="21" pinfunction="P21" pintype="passive"/>
+      <node ref="RN302" pin="7" pinfunction="R7.1" pintype="passive"/>
+      <node ref="U106" pin="3" pinfunction="A1" pintype="tri_state"/>
+    </net>
+    <net code="55" name="~{SCSI_DB2}">
+      <node ref="J302" pin="22" pinfunction="P22" pintype="passive"/>
+      <node ref="RN302" pin="6" pinfunction="R6.1" pintype="passive"/>
+      <node ref="U106" pin="4" pinfunction="A2" pintype="tri_state"/>
+    </net>
+    <net code="56" name="~{SCSI_DB3}">
+      <node ref="J302" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="RN302" pin="5" pinfunction="R5.1" pintype="passive"/>
+      <node ref="U106" pin="5" pinfunction="A3" pintype="tri_state"/>
+    </net>
+    <net code="57" name="~{SCSI_DB4}">
+      <node ref="J302" pin="23" pinfunction="P23" pintype="passive"/>
+      <node ref="RN302" pin="4" pinfunction="R4.1" pintype="passive"/>
+      <node ref="U106" pin="6" pinfunction="A4" pintype="tri_state"/>
+    </net>
+    <net code="58" name="~{SCSI_DB5}">
+      <node ref="J302" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="RN302" pin="3" pinfunction="R3.1" pintype="passive"/>
+      <node ref="U106" pin="7" pinfunction="A5" pintype="tri_state"/>
+    </net>
+    <net code="59" name="~{SCSI_DB6}">
+      <node ref="J302" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="RN302" pin="2" pinfunction="R2.1" pintype="passive"/>
+      <node ref="U106" pin="8" pinfunction="A6" pintype="tri_state"/>
+    </net>
+    <net code="60" name="~{SCSI_DB7}">
+      <node ref="J302" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="RN302" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U106" pin="9" pinfunction="A7" pintype="tri_state"/>
+    </net>
+    <net code="61" name="~{SCSI_DBP}">
+      <node ref="J302" pin="20" pinfunction="P20" pintype="passive"/>
+      <node ref="R109" pin="1" pintype="passive"/>
+      <node ref="U102" pin="12" pintype="input"/>
+      <node ref="U102" pin="8" pintype="tri_state"/>
+    </net>
+    <net code="62" name="~{SCSI_IO}">
+      <node ref="J302" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RN301" pin="15" pinfunction="R2.2" pintype="passive"/>
+      <node ref="U105" pin="14" pinfunction="B4" pintype="tri_state"/>
+    </net>
+    <net code="63" name="~{SCSI_MSG}">
+      <node ref="J302" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RN301" pin="16" pinfunction="R1.2" pintype="passive"/>
+      <node ref="U105" pin="12" pinfunction="B6" pintype="tri_state"/>
+    </net>
+    <net code="64" name="~{SCSI_REQ}">
+      <node ref="J302" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RN301" pin="13" pinfunction="R4.2" pintype="passive"/>
+      <node ref="U105" pin="16" pinfunction="B2" pintype="tri_state"/>
+    </net>
+    <net code="65" name="~{SCSI_RST}">
+      <node ref="J302" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="RN301" pin="9" pinfunction="R8.2" pintype="passive"/>
+      <node ref="U101" pin="12" pintype="input"/>
+      <node ref="U101" pin="8" pintype="tri_state"/>
+    </net>
+    <net code="66" name="~{SCSI_SEL}">
+      <node ref="J302" pin="19" pinfunction="P19" pintype="passive"/>
+      <node ref="RN301" pin="12" pinfunction="R5.2" pintype="passive"/>
+      <node ref="U102" pin="3" pintype="tri_state"/>
+      <node ref="U102" pin="5" pintype="input"/>
+    </net>
+  </nets>
+</export>
