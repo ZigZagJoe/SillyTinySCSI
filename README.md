@@ -9,7 +9,7 @@ V2.0: Design for manufacturability improvements
 
 Case design has been validated in 0.25mm ABS on a monoprice mini. May require changes on other printers. Not yet tested.
 Requires 4x M2 x 7mm (or greater) machine screws or suitable self tapping screws.
-Supports everywhere is *required* when printing.
+Supports everywhere is *required* when printing. Suggest line support in cura, ensure that the lines run along the length of the slots 
 
 See here for more discussion and assembly note: https://68kmla.org/bb/index.php?threads/sillytinyscsi-smallest-scsi-emulator-zuluscsi-oshw.45830/
 
