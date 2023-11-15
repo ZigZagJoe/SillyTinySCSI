@@ -1,7 +1,7 @@
 *.bck
 *.sch-bak
 *.kicad_pcb-bak
-SillyTinySCSI-backups/
+*-backups/
 *.lck
 thumbs.db
 notes.txt
